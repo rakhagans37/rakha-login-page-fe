@@ -21,21 +21,22 @@
             <div class="w-full flex flex-col gap-6 items-center">
                 <form action="index.php" class="w-full flex flex-col gap-6">
                     <label for="NIK">
-                        <input type="text" name="NIK" id="NIK" placeholder="NIK" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
+                        <input type="number" name="NIK" id="NIK" placeholder="NIK" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
                     </label>
                     <label for=" Email">
-                        <input type="Email" name="Email" id="Email" placeholder="Email" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
+                        <input type="email" name="Email" id="Email" placeholder="Email" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
                     </label>
-                    <label for="Nomor Telepon">
-                        <input type="text" name="Nomor Telepon" id="Nomor Telepon" placeholder="Nomor Telepon" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
+                    <label for="Nomor Telepon" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
+                        <span class="text-sm text-[#7A7A7A] font-normal">+62 | </span>
+                        <input type="number" name="Nomor Telepon" id="Nomor Telepon" placeholder="Nomor Telepon" class="bg-transparent w-auto focus:outline-none">
                     </label>
                     <label for=" Username">
-                        <input type="Username" name="Username" id="Username" placeholder="Username" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
+                        <input type="text" name="Username" id="Username" placeholder="Username" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
                     </label>
                     <label for="Password">
                         <input type="text" name="Password" id="Password" placeholder="Password" class="w-full bg-[#EEE] px-4 py-3 rounded-xl placeholder:text-sm">
                     </label>
-                    <input type="submit" name="Login" value="Login" id="Login" class="bg-[#810000] text-white text-sm font-bold py-3 rounded-xl">
+                    <input type="submit" name="Login" value="Login" id="Login" class="bg-[#810000] text-white text-sm font-bold py-3 rounded-xl hover:bg-[#540101] active:bg-[#7E0000] focus:outline-none focus:ring focus:ring-red-500">
                 </form>
                 <a href="#" class="font-semibold text-sm">Lupa Password?</a>
             </div>
